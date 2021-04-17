@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background-color: teal;
+}
+
+.header-container{
+  display: flex;
+}
+.header-container div{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.header-container div button{
+  width: 50px;
+  border-radius: 90%;
+  height: 50px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: lightgray;
+}
+
+/* #header-detail{
+  display: flex;
+} */
+
+.nav1{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+
+.link{
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#root {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 0;
+  margin-bottom: 100px;
+}
+
+.choose {
+  display: flex;
+  letter-spacing: 1px;
+}
+
+.choose p {
+  margin: 20px;
+  cursor: pointer;
+}
+
+label {
+  display: grid;
+  grid-template-columns: (2, 1fr);
+  margin-top: 30px;
+  color: #000000;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+input,
+select {
+  padding: 10px;
+  width: 400px;
+  margin-top: 10px;
+}
+
+select {
+  width: 320px;
+}
+
+textarea {
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+
+.navLinks {
+  margin-top: 40px;
+}
+
+h1 {
+  color:#315042;
+  letter-spacing: 2px;
+}
+
+.active {
+  border-bottom: 2px solid #f5bd6a;
+}
+
+.type {
+  padding: 10px 20px;
+}
+
+#local,
+#swift {
+  width: 60px;
+  margin-top: 20px;
+}
+
+.error {
+  margin-top: 5px;
+  color: #c6eb1f;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* a {
+  text-decoration: none;
+  margin: 20px;
+  background-color:  lightgray;
+  padding: 10px 30px;
+  color: white;
+} */

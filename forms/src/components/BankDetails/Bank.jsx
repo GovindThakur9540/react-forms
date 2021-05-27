@@ -56,10 +56,9 @@ export default class Bank extends Component {
                 <h1>Bank Details</h1>
                 <BankForm {...this.state.data} changeForm={this.changeForm} />
                 <div className="navLinks">
-                    <Link to="/">Previous</Link>
-                    <Link to="/address">Next</Link>
+                    <button className="previousbtn"><Link to="/">Previous</Link></button>
+                    <button className="nextbtn"><Link to="/address">Next</Link></button>
                 </div>
-
             </div>
         )
     }

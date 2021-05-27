@@ -30,10 +30,9 @@ export default class Address extends Component {
                         value={this.state.address} onChange={this.change}></textarea>
                 </form>
                 <div className="navLinks">
-                    <Link to="/bank">Previous</Link>
-                    <Link to="/details">Submit</Link>
+                    <button className="previousbtn"><Link to="/bank">Previous</Link></button>
+                    <button className="submitbtn"><Link to="/details">Submit</Link></button>
                 </div>
-
             </div>
         )
     }

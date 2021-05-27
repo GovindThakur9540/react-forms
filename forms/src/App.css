@@ -31,12 +31,18 @@ body{
 /* #header-detail{
   display: flex;
 } */
-
-.nav1{
-  margin-top: 10px;
+.header-cont div{
   display: flex;
+  margin-top: 10px;
   justify-content: space-around;
   width: 100%;
+}
+
+.nav1{
+  width: 50px;
+  border-radius: 90%;
+  height: 50px;
+  text-align: center;
 }
 
 
@@ -106,8 +112,31 @@ textarea {
 }
 
 
-.navLinks {
-  margin-top: 40px;
+.navLinks button{
+  padding: 10px;
+  outline: none;
+  width: 130px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.previousbtn{
+  background-color: rgb(81, 233, 233);
+  outline: none;
+  border: 1px solid royalblue;
+}
+
+.nextbtn{
+  background-color: rgb(81, 233, 233);
+  outline: none;
+  border: 1px solid royalblue;
+
+}
+
+.submitbtn{
+  border: 1px solid royalblue;
+  outline: none;
+  background-color: rgb(81, 233, 233);
 }
 
 h1 {

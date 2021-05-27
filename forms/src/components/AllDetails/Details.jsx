@@ -30,7 +30,7 @@ export default function Details(props) {
                 <p>Account Type</p>
                 <p>{props.accType}</p>
             </div>
-            <Link to="/address" className="prev">Previous</Link>
+            <button className="navLinks"><Link to="/address" className="prev">Previous</Link></button>
         </div>
     )
 }

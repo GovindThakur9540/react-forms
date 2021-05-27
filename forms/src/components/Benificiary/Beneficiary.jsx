@@ -127,7 +127,7 @@ export default class Beneficiary extends Component {
                         : <BusinessForm {...this.state.form} changeForm={this.changeForm} error={this.state.error} />
                 }
                 <div className="navLinks">
-                    <Link to={this.state.activateNext ? "/bank" : ""}>Next</Link>
+                    <button className="nextbtn"><Link to={this.state.activateNext ? "/bank" : ""}>Next</Link></button>
                 </div>
 
             </div>

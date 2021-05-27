@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Nav extends Component {
     render() {
@@ -11,13 +11,18 @@ class Nav extends Component {
                         <button><Link to="/Bank/">2</Link></button>
                         <button><Link to="/Address">3</Link></button>
                 </div>
+                
             </div>
-            {/* <div id="header-detail">
-                <div className="nav1">Benificiary</div>
-                <div className="nav1">BankDetails</div>
-                <div className="nav1">Address</div>
-                </div> */}
+                
+            <div className="header-cont">
+                <div id="header-detail">
+                    <div className="nav1">Benificiary</div>
+                    <div className="nav1">BankDetails</div>
+                    <div className="nav1">Address</div>
+                    </div>
+                </div>
             </div>
+            
         );
     }
 }
